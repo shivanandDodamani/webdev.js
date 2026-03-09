@@ -1,8 +1,7 @@
-{
-    let age = 18;
-    console.log(age);
-}
-{
-    let age = 20;
-    console.log(age);
-}
+const student = {
+    fullname : "sachin",
+    age : 18,
+    gender : male,
+    cgpa : 9.8,
+    ispass : true,
+};
