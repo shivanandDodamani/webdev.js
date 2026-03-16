@@ -1,10 +1,10 @@
-const student = {
-    fullname: "sachin",
-    age: 18, 
-    cgpa: 9.8,
-    ispass: true
+const profile = {
+    username: "shivanand Dodamani",
+    isfollow: false,
+    follow: 123,
+    followers: 123,
+    name:"@shivanand",
+    bio: "i am working in google as a software engineer",
 };
 
-student["age"] = student["age"] + 1;
-
-console.log(student["age"])
+console.log(profile)
