@@ -29,15 +29,38 @@
 //     console.log("you cannot vote")
 // }
 
-let mode = "dark";
-let color;
+// let mode = "blue";
+// let color;
 
-if (mode === "dark") {
-    color = "black";
+// if (mode === "dark") {
+//     color = "black";
+// }else{
+//     color = "white";
+// }
+
+// console.log(color)
+// let age = 25;
+// if(age >= 18) {
+//     console.log("vote")
+// }else{
+//     console.log("not vote")
+// }
+
+// let num = 10;
+// if (num % 2 === 0) {
+//     console.log("even")
+// }else{
+//     console.log("oddd")
+// }
+// let name = prompt("hello");
+//     console.log(name);
+
+// alert("hello");     //one time pop up
+
+let num = prompt("enter a number:");
+
+if (num % 5 === 0){
+    console.log(num + "is divisible of 5")
+}else{
+    console.log(num + " is divisible of 5")
 }
-
-if (mode === "light") {
-    color = "white";
-}
-
-console.log(color)
