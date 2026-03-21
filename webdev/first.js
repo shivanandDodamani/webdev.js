@@ -54,13 +54,17 @@
 // }
 // let name = prompt("hello");
 //     console.log(name);
+//print 1 to 5
+ for (let i = 1; i <= 5; i++){
+     console.log("i=", i); // runs up to the 5 times
+ }
 
-// alert("hello");     //one time pop up
 
-let num = prompt("enter a number:");
-
-if (num % 5 === 0){
-    console.log(num + "is divisible of 5")
-}else{
-    console.log(num + " is divisible of 5")
-}
+// sum of 1 to 5
+// let sum = 0;
+// let n = 
+// for (let i = 0; i <= n; i++){
+//     sum = sum + i;
+// }
+// console.log(sum)
+ 
