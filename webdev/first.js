@@ -55,16 +55,23 @@
 // let name = prompt("hello");
 //     console.log(name);
 //print 1 to 5
- for (let i = 1; i <= 5; i++){
-     console.log("i=", i); // runs up to the 5 times
- }
+//  for (let i = 1; i <= 5; i++){
+//      console.log("i=", i); // runs up to the 5 times
+//  }
 
 
-// sum of 1 to 5
-// let sum = 0;
-// let n = 
-// for (let i = 0; i <= n; i++){
-//     sum = sum + i;
-// }
-// console.log(sum)
+// // sum of 1 to 5
+// let sum = 0; 
+// let n = 100;
+// for(let i = 0; i <= n; i++){
+//     sum = sum + i;   //adds it all
+// }   
+// console.log("Sum = ", sum);
+// console.log("loop ends here");
+
+let i = 1;
+while(i >= 5){
+    console.log(i);
+}
+
  
