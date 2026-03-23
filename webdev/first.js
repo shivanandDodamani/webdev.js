@@ -69,9 +69,45 @@
 // console.log("Sum = ", sum);
 // console.log("loop ends here");
 
-let i = 1;
-while(i >= 5){
-    console.log(i);
-}
+// let i = 1;
+// while(i >= 5){
+//     console.log(i);
+// }
 
- 
+//for-of loop
+// let str = "shivanand"
+// size = 0;
+// for(let val of str) {
+//     console.log("val =", val); //itrator --> prints always char
+//     size++
+// }
+// console.log("String size =", size)  // 9 char
+
+// let student = {
+//     name : "shivanand",
+//     age : 25,
+//     ispass : true,
+//     cgpa : 9.5,
+// };
+
+// for(let key in student) {
+//     console.log("key =", key , "value =", student[key]);
+// }
+
+
+// practise question 1
+// let n = 100;
+// for(let i = 0; i <=n; i++){
+//     if(i%2 === 0){
+//         console.log("even =", i)
+//     }
+// }
+
+
+// practise question 2
+let gameNum = 6;
+let userNum = prompt("Guess the correct number ");
+ while(userNum != gameNum) {
+    userNum = prompt("your Guesed number is wrong, Guess the correct number ");
+ }
+    console.log("congratulations you guessed the correct number") ;
