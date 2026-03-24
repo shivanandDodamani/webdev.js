@@ -105,9 +105,19 @@
 
 
 // practise question 2
-let gameNum = 6;
-let userNum = prompt("Guess the correct number ");
- while(userNum != gameNum) {
-    userNum = prompt("your Guesed number is wrong, Guess the correct number ");
- }
-    console.log("congratulations you guessed the correct number") ;
+// let gameNum = 6;
+// let userNum = prompt("Guess the correct number ");
+//  while(userNum != gameNum) {
+//     userNum = prompt("your Guesed number is wrong, Guess the correct number ");
+//  }
+//     console.log("congratulations you guessed the correct number") ;
+
+// let str = "shivanand"
+
+// for(let val of str) {
+//    console.log("val = ", val)
+// }
+
+//template literals
+let specialsytring = 'shivnanad'
+console.log(specialsytring)
