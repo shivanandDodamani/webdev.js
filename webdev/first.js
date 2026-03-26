@@ -118,6 +118,25 @@
 //    console.log("val = ", val)
 // }
 
-//template literals
-let specialsytring = 'shivnanad'
-console.log(specialsytring)
+// //template literals
+// let specialsytring = 'shivnanad'
+// console.log("special\tsytring");
+
+// str = '                  shivanand'
+
+// str1 = 'shivanand'
+// str2 = 'Dodamani'
+
+// let result = str2.concat(str1)
+// console.log(result)
+
+// let str = 'hello'
+// console.log(str)
+// console.log(str.replace("o","mav"))
+
+
+//practising qestion 
+
+let fullname = prompt("enter your full name without space");
+let username = "@"+ fullname + fullname.length;
+console.log(username);
