@@ -137,6 +137,6 @@
 
 //practising qestion 
 
-let fullname = prompt("enter your full name without space");
-let username = "@"+ fullname + fullname.length;
-console.log(username);
+// let fullname = prompt("enter your full name without space");
+// let username = "@"+ fullname + fullname.length;
+// console.log(username);
