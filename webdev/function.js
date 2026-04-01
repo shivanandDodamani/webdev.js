@@ -68,12 +68,36 @@
 // });
 // console.log( newArr);
 
-let num = [1, 2, 3, 4, 5];
+// let num = [1, 2, 3, 4, 5];
 
-const output = num.reduce((prev, curr) => {
-    return prev > curr ? prev: curr;
-});
-console.log(output);
+// const output = num.reduce((prev, curr) => {
+//     return prev > curr ? prev: curr;
+// });
+// console.log(output);
 
+// let marks = [80, 90, 92, 95, 88, 95];
+
+// let topper = marks.filter((val) => {
+//     return val > 90;
+// })
+// console.log(topper);
+
+let n = prompt("enter the number");
+
+let arr = [];
+for(let i = 1; i <= n; i++){
+    arr[i - 1] = i;
+}
+console.log(arr);
+
+let sum = arr.reduce((res, curr) => {
+    return res + curr;
+})
+console.log("sum = ", sum);
+
+let fact = arr.reduce((res, curr) => {
+    return res * curr;
+})
+console.log("fact = ", fact);
 
 
