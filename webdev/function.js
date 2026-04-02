@@ -82,22 +82,26 @@
 // })
 // console.log(topper);
 
-let n = prompt("enter the number");
+// let n = prompt("enter the number");
 
-let arr = [];
-for(let i = 1; i <= n; i++){
-    arr[i - 1] = i;
-}
-console.log(arr);
+// let arr = [];
+// for(let i = 1; i <= n; i++){
+//     arr[i - 1] = i;
+// }
+// console.log(arr);
 
-let sum = arr.reduce((res, curr) => {
-    return res + curr;
-})
-console.log("sum = ", sum);
+// let sum = arr.reduce((res, curr) => {
+//     return res + curr;
+// })
+// console.log("sum = ", sum);
 
-let fact = arr.reduce((res, curr) => {
-    return res * curr;
-})
-console.log("fact = ", fact);
+// let fact = arr.reduce((res, curr) => {
+//     return res * curr;
+// })
+// console.log("fact = ", fact);
 
+// console.log(document.body);
+// console.dir(document.body);
 
+let heading = document.getElementById("heading");
+console.log(heading  )
