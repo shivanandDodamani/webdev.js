@@ -103,5 +103,18 @@
 // console.log(document.body);
 // console.dir(document.body);
 
-let heading = document.getElementById("heading");
-console.log(heading  )
+//let heading = document.getElementById("heading");
+//console.log(heading  )
+// let heading = document.getElementsByClassName("heading");
+// console.log(heading);
+// console.dir(heading);
+
+// let paragraph = document.getElementsByTagName("p");
+// console.log(paragraph);
+// console.dir(paragraph);
+
+let elements = document.querySelector(".heading"); // 1st paragraph
+console.dir(elements);
+
+let allelements = document.querySelectorAll(".heading");
+console.dir(allelements);
