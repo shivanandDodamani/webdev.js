@@ -103,9 +103,14 @@
 // console.log(document.body);
 // console.dir(document.body);
 
-let element = document.querySelector(".heading"); // 1st paragraph
-console.dir(element);
+// let element = document.querySelector(".heading"); // 1st paragraph
+// console.dir(element);
 
 // let allelements = document.querySelectorAll(".heading");
 // console.dir(allelements);
+let result = "";
+for (let i = 97; i <= 112; i++) {
+    console.log(result.fromcharcode(i));
+}
+
 
